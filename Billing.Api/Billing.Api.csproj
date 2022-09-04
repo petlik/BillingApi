@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Billing.Clients.Example\Billing.Clients.Example.csproj" />
+    <ProjectReference Include="..\Billing.Clients.Thrower\Billing.Clients.Thrower.csproj" />
+    <ProjectReference Include="..\Billing.Interfaces\Billing.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
